@@ -50,8 +50,7 @@ def my_function(text):
     Returns:
         str: The processed text.
     """
-    response = text.upper()
-    return response
+    return text.upper()
 
 
 @app.event("app_mention")
